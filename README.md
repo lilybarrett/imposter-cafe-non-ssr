@@ -1,0 +1,1 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and consumes the [`imposter-cafe-service`](https://github.com/lilybarrett/imposter-cafe-service). These projects were created for the purposes of doing a "Server-Side-Rendering in React" tutorial (coming soon).
