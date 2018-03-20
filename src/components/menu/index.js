@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Container, Header } from "./styles";
 import NavBar from "../nav-bar";
+import { MenuItem, Bold } from "./styles";
+import { Page } from "../../global";
 
 class Menu extends Component {
   constructor () {
@@ -18,17 +20,20 @@ class Menu extends Component {
   
   render() {
     return (
-      <Container>
-          <Header>Imposter Cafe Brunch Menu</Header>
-          { this.state.menuItems.map((menuItem) => {
-            const { name, description, cost } = menuItem;
-            return (
-              <div>
-                {name}: {description} - Price: {cost}
-              </div>
-            )
-          }) }
-      </Container>
+      <Page>
+        <Container>
+            <Header>Imposter Cafe Brunch Menu</Header>
+            { this.state.menuItems.map((menuItem) => {
+              const { name, description, cost } = menuItem;
+              return (
+                <MenuItem>
+                  <Bold>{name}:</Bold> {description}
+                  <p>Price: {cost}</p>
+                </MenuItem>
+              )
+            }) }
+        </Container>
+      </Page>
     );
   }
 }
