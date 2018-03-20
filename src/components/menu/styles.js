@@ -1,10 +1,12 @@
 import styled from "react-emotion";
 
 export const Container = styled("div")`
-  background: white;
+  font-family: sans-serif;
 `
 export const Header = styled("h1")`
   color: rebeccapurple;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
 `
 
 export const MenuItem = styled("div")`
