@@ -8,9 +8,10 @@ export const HomeImage = styled("img")`
 
 export const CafeTitle = styled("h1")`
     color: rebeccapurple;
-    position: absolute;
-    top: 50%;
-    left: 33%;
-    font-size: 100px;
-    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 350%;
+    font-family: 'Abril Fatface', cursive;
 `;

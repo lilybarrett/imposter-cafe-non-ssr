@@ -7,7 +7,7 @@ import { HomeImage, CafeTitle } from "./styles";
 const Home = () => {
     return (
         <Page>
-            <CafeTitle>Imposter Cafe</CafeTitle>
+            <CafeTitle>Welcome to Imposter Cafe!</CafeTitle>
             <HomeImage src={donutsImage} />
         </Page>
     )
